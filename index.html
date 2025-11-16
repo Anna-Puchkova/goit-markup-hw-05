@@ -65,7 +65,7 @@
       <section class="sections title-section">
         <div class="container title-container">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button class="title-button" type="button">
+          <button class="title-button" type="button" data-modal-open>
             <span class="title-button-text">Order Service</span>
           </button>
         </div>
@@ -446,9 +446,9 @@
       </div>
     </footer>
     <!--#endregion footer-->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button class="button-close" type="button">
+        <button class="button-close" type="button" data-modal-close>
           <svg class="icon-button-close" width="8" height="8">
             <use href="./images/icons.svg#icon-closeblack"></use>
           </svg>
@@ -521,9 +521,8 @@
                   <use href="./images/sprite.svg#icon-click"></use></svg></span>
               I accept the terms and conditions of the
               <a href="#" class="accent policy-link">Privacy Policy</a>
-            </label>
+            </label></div>
             <button class="button-primary" type="submit">Send</button>
-          </div>
           </form>
       </div>
     </div>
