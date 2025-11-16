@@ -477,6 +477,7 @@ display: flex;
 .form-footer{
   margin-left: 80px;
   display: flex;
+    flex-direction: column;
 }
 
 .text-subscribe{
@@ -490,6 +491,7 @@ margin-bottom: 16px;
 }
 .form-subscribe{
  display: flex;
+ 
 gap: 24px;
 }
 
